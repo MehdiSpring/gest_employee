@@ -1,0 +1,60 @@
+= SFG Brewery Order Service Docs
+Mehdi BOUMZZI;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample application demonstrating how to use Spring REST Docs with JUnit 5.
+
+`EmployeeControllerTest` makes a call to a very simple service and produces three
+documentation snippets.
+
+* api/employees:
+
+One showing how to make a request using cURL:
+
+include::{snippets}/api/employees/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/api/employees/http-request.adoc[]
+
+Request Fields:
+
+include::{snippets}/api/employees/request-fields.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/api/employees/http-response.adoc[]
+
+Response Body:
+
+include::{snippets}/api/employees/response-body.adoc[]
+
+                                        -------------------------------------------
+
+* api/employees/byLastName:
+
+One showing how to make a request using cURL:
+
+include::{snippets}/api/employees/byLastName/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/api/employees/byLastName/http-request.adoc[]
+
+Request Parameter:
+
+include::{snippets}/api/employees/byLastName/request-parameters.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/api/employees/byLastName/http-response.adoc[]
+
+Response Body:
+
+include::{snippets}/api/employees/byLastName/response-body.adoc[]
+
+Response Fields:
+
+include::{snippets}/api/employees/byLastName/response-fields.adoc[]
